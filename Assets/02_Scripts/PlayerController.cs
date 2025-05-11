@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private Transform transform;
     // Start is called before the first frame update
     void Start()
     {
+        transform = this.transform;
         Debug.Log("aaa");
     }
 
